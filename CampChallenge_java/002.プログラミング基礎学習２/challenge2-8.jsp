@@ -12,6 +12,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <%
+            String A[] = {"soeda"};
+            A[0] = "33";
+        %>
     </body>
 </html>
